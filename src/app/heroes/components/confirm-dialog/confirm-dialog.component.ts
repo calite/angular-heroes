@@ -5,7 +5,8 @@ import { Hero } from '../../interfaces/hero.interface';
 @Component({
   selector: 'app-confirm-dialog',
   templateUrl: './confirm-dialog.component.html',
-  styleUrls: ['./confirm-dialog.component.css']
+  styles: [
+  ]
 })
 export class ConfirmDialogComponent {
 
@@ -21,5 +22,4 @@ export class ConfirmDialogComponent {
   onConfirm():void {
     this.dialogRef.close(true)
   }
-
 }
